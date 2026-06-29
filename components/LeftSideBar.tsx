@@ -27,7 +27,7 @@ export default function Sidebar() {
 
             {/* Enlaces */}
             <nav className="flex flex-col gap-2 mt-4">
-                {links.map((link) => (
+                {secciones.map((link) => (
                     <Link
                         key={link.href}
                         href={link.href}

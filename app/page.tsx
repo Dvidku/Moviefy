@@ -1,7 +1,7 @@
 import MovieRow from "../components/MovieRow"
 
 const TOKEN = process.env.TOKEN
-const BASE = "https://api.themoviedb.org/3"
+const BASE = process.env.BASE
 
 async function fetchMovies(endpoint: string) {
 
